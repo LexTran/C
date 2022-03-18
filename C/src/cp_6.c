@@ -1,9 +1,13 @@
 #include <stdio.h>
 
 int main(){
-	unsigned char a=176,b=219;
-	printf("%c%c%c%c%c\n",b,a,a,a,b);
-	printf("%c%c%c%c%c\n",a,b,a,b,a);
-	printf("%c%c%c%c%c\n",a,a,b,a,a);
-	printf("%c%c%c%c%c\n",b,a,a,a,b);
+	int i,j,result;
+	for(i=1;i<10;i++){
+		for(j=1;j<10;j++){
+			result=i*j;
+			printf("%d*%d=%-3d",i,j,result);
+		}
+		printf("\n");
+	}
+	return 0;
 }
