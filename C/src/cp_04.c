@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 int main(){
-	int date,month,year,num;
+	int date,month,year,num=0;
 	bool run_flag;//run_flag用于判断是否为闰年
 	scanf("%d %d %d",&year,&month,&date);
 	switch(month){
