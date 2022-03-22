@@ -3,12 +3,12 @@
 #include <stdlib.h>
 
 int length(char *str){
-    int i=0;
+    int cnt=0;
     while(*str != '\0' ){
-        i++;
+        cnt++;
         str++;
     }
-    return i;
+    return cnt;
 }
 
 int main(){
