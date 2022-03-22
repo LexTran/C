@@ -12,9 +12,9 @@ int length(char *str){
 }
 
 int main(){
-    char str[20];
+    char *str;
     printf("input your string:\n");
-    scanf("%s", &str);
+    scanf("%s", str);
     printf("the length of string is %d", length(str));
     return 0;
 }
