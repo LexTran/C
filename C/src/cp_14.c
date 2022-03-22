@@ -1,3 +1,4 @@
+/*计算a+aa+aaa+aaaa+...+aaaaaaaa*/
 #include <stdio.h>
 
 int main(){
