@@ -4,7 +4,7 @@
 int main(){
     int day=9, total, left=1;
     while(day>0){
-        total=(left+1)*2;
+        total = (left+1)*2;
         left = total;
         day--;
     }
